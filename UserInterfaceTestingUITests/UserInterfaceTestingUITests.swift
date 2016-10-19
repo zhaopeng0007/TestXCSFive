@@ -31,7 +31,7 @@ class UserInterfaceTestingUITests: XCTestCase {
         app.buttons["View Detail"].tap()
         
         // Verify that nothing has happened and we are still at the menu scren.
-        XCTAssertEqual(app.navigationBars.element.identifier, "Menu")
+        XCTAssertEqual(app.navigationBars.element.identifier, "Menu122")
     }
     
     func testTapViewDetailWhenSwitchIsOnNavigatesToDetailViewController() {
